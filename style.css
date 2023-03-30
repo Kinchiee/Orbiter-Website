@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -418,7 +419,8 @@ a:is(:link, :active, :visited).active {
     height: 300px;
     width: 100vw;
     margin-top: 5rem;
-    background-color: rgb(14, 14, 14);
+    background: transparent;
+    border: 3px solid orange;
     text-align: center;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
